@@ -1,0 +1,129 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h1, h2 {
+    margin-bottom: 5px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .avatar, .location {
+    width: calc(50% - 10px);
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .avatar img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .location input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .location button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .avatar, .location {
+      width: 100%;
+    }
+  }
+
+  .logo svg {
+    width: 90px;
+    height: auto;
+  }
+  
+  .logo header h1 {
+    display: none;
+  }
+
+  .logo svg {
+    color: rgb(255, 54, 178);
+    fill: currentColor;
+    opacity: 0.7;
+    margin-bottom: 30px;
+  }
+
+  .choose-image-btn {
+    display: inline-block;
+    width: 40%;
+    height: 30%;
+    text-align: center;
+    background-color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+  }
+
+  .upload-container {
+    display: inline-flex; 
+    justify-content: center;
+    align-items: center;
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%;
+    background-color: #eee;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    margin-right: 10px;
+  }
+  
+  .upload-container:hover {
+    background-color: #ddd;
+  }
+  
+  .upload-container svg {
+    width: 50%;
+    height: 50%;
+    fill: currentColor;
+  }
+  
+  .choose-image-btn {
+    background-color: #4CAF50; /* Adjust button color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  
